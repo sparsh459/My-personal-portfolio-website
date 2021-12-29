@@ -103,7 +103,7 @@ export default function Footer() {
                 path: 'mailto:sparsh0987654321@gmail.com',
               },
               {
-                title: 'North City Extension, Bareilly, India',
+                title: 'Bareilly, India',
                 path: 'http://google.com/maps',
               },
             ]}

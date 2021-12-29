@@ -49,7 +49,7 @@ export default function Map() {
       <div className="container">
         <div className="map__card">
           <h3 className="map__card__heading">Here is me</h3>
-          <PText>North City Extension, Bareilly, India</PText>
+          <PText>Bareilly, India</PText>
           <a
             className="map__card__link"
             href="https://www.google.com/maps/place/28%C2%B024'15.1%22N+79%C2%B027'00.3%22E/@28.4042016,79.4478804,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x4921c79adc022b36!8m2!3d28.4042016!4d79.4500691?hl=en"

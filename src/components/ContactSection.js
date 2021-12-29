@@ -68,7 +68,7 @@ export default function ContactSection() {
             >
               <ContactInfoItem
                 icon={<MdEmail />}
-                text="sparsh0987654321@gmail.com@gmail.com"
+                text="sparsh0987654321@gmail.com"
               />
             </a>
             <a
