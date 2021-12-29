@@ -126,12 +126,12 @@ export default function About() {
             <h1 className="about__info__heading">My Skills</h1>
 
             <AboutInfoItem
-              title="BackEnd"
+              title="Backend"
               items={['Django', 'Flask', 'Python', 'REST-Framework Python']}
             />
-            <AboutInfoItem title="Database" items={['SQL', 'NoSQL']} />
+            <AboutInfoItem title="DBMS" items={['SQL', 'NoSQL']} />
             <AboutInfoItem
-              title="FrontEnd"
+              title="Frontend"
               items={['HTML', 'CSS', 'JavaScript', 'REACT']}
             />
           </div>
