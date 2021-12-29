@@ -31,9 +31,9 @@ export default function ServicesSection() {
 
         <div className="services__allItems">
           <ServicesSectionItem
-            icon={<MdDesktopMac />}
-            title="web design"
-            desc="I do ui/ux design for the website that helps website to get a unique look."
+            icon={<MdPersonalVideo />}
+            title="Software Dev"
+            desc="I develop Desktop. I create Graphical user interfaces fro better user experience. "
           />
           <ServicesSectionItem
             icon={<MdCode />}
@@ -41,9 +41,9 @@ export default function ServicesSection() {
             desc="I also develop the websites. I create high performance website with blazing fast speed."
           />
           <ServicesSectionItem
-            icon={<MdPersonalVideo />}
-            title="Software Dev"
-            desc="I develop Desktop. I create Graphical user interfaces fro better user experience. "
+            icon={<MdDesktopMac />}
+            title="web design"
+            desc="I do ui/ux design for the website that helps website to get a unique look."
           />
         </div>
       </div>
