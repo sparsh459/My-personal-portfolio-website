@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import Button from '../components/Button';
+import AboutBtn from '../components/AboutBtn';
 import AboutImg from '../assets/images/about-page-img.JPG';
 import ContactBanner from '../components/ContactBanner';
 import AboutInfoItem from '../components/AboutInfoItem';
+import resume from '../assets/pdf/resume.pdf';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -103,7 +104,7 @@ export default function About() {
                 place.
               </PText>
             </div>
-            <Button btnText="Download CV" btnLink="#" />
+            <AboutBtn btnText="Download CV" btnLink={resume} />
           </div>
           <div className="right">
             <img src={AboutImg} alt="me" />
