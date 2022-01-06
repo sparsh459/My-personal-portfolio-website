@@ -83,8 +83,8 @@ export default function AboutSection() {
           />
           <PText>
             I am a developer from Bareilly, Uttar Pradesh. I create Softwares
-            and Web Apps. I love Space and Aleins and always try to make unique
-            and imporoved softwares and Web Apps with better designs.
+            and Web Apps. I love Space and Aliens and always try to make unique
+            and improved softwares and Web Apps with better designs.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
