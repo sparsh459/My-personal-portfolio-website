@@ -33,18 +33,18 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdPersonalVideo />}
             title="Software Dev"
-            desc="I develop Desktop applications. I create Graphical user interfaces fro better user experience. "
+            desc="I develop Desktop applications. I create Graphical user interfaces for better user experience. "
           />
           <ServicesSectionItem
             icon={<MdCode />}
             title="Web dev"
             desc="I also develop the websites and web apps. I create high performance website with blazing fast speed."
           />
-          <ServicesSectionItem
+          {/* <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="web design"
             desc="I do ui/ux design for the website that helps website to get a unique look."
-          />
+          /> */}
         </div>
       </div>
     </ServicesItemsStyles>
