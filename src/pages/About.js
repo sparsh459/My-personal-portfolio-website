@@ -83,7 +83,7 @@ export default function About() {
               Hi, I am <span>Sparsh Saxena</span>
             </p>
             <h2 className="about__heading">
-              A Developer soon to be Graduate in May 2022
+              A Software Engineer specializing in Backend Development and DevOps
             </h2>
             <div className="about__info">
               <PText>
@@ -128,12 +128,31 @@ export default function About() {
 
             <AboutInfoItem
               title="Backend"
-              items={['Django', 'Flask', 'Python', 'REST-Framework Python']}
+              items={['Django', 'Flask', 'Python', 'Django-REST-Framework']}
+            />
+            <AboutInfoItem
+              title="Dev-Ops"
+              items={['Docker', 'Nginx']}
             />
             <AboutInfoItem title="DBMS" items={['SQL', 'NoSQL']} />
             <AboutInfoItem
               title="Frontend"
-              items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+              items={['HTML', 'CSS', 'JavaScript']}
+            />
+          </div>
+          <div className="about__info__item">
+            <h1 className="about__info__heading">Work-Experience</h1>
+            <AboutInfoItem
+              title="(Aug-Present)2022"
+              items={['Associate Software Engineer - Backend']}
+            />
+            <AboutInfoItem
+              title="(April-Aug)2022"
+              items={['Software Engineer Intern (Codemonk)']}
+            />
+            <AboutInfoItem
+              title="Feb-April(2022)"
+              items={['Software Engineer Intern (Vevesta Labs PVT LTD)']}
             />
           </div>
           <div className="about__info__item">
